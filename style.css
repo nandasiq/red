@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 1.6;
+}
+p{
+	font-size: 16px;
+}
+
+.topo{
+	text-align: center;
+	background-image: url("images/parallax-intro.png")
+}
+
+table{
+	background-color: #f0f0f0;
+	align-self: center;
+
+}
+
+th {
+	
+}
+
+
+/*.menu{
+	background-color: #f0f0f0;
+	text-align: center;
+
+	color: black;
+	display: inline-block;
+	justify-content: center;
+	height: 62px;
+	width: 100%;
+	align-self: center;
+}*/
+
+.image{
+	max-width: 100%;
+}
+
+.inicio{
+	background-image: url("images/inicio.png");
+	background-size: 100% 100%;
+	height: 350px;
+}
+
+.comissao{
+	height: 600px;
+	background-image: url("images/bg-amarelo-comissao.png");
+	background-size: 100% 100%;
+}
+
+#conteudo-comissao{
+	height: 200px;
+	width: 70%;
+	background-color: beige;
+	text-align: center;
+	margin: auto;
+	
+}
+
+.projeto{
+	height: 600px;
+	background-image: url("images/OProjeto.png");
+	padding-bottom: 0;
+	
+}
+
+#conteudo-projeto{
+	height: 350px;
+	width: 550px;
+	color: aliceblue;
+	font-size: 14;
+	float: right;
+	padding-right: 40px;
+	padding-top: 100px;
+
+}
+
+.noticias{
+	height: 600px;
+	background-image: url("images/noticias.png");
+	background-size: 100%;
+	padding-top: 0;
+}
+
+#conteudo-noticias {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 350px 350px 350px;
+	grid-template-rows: 350px;
+	grid-gap: 10px;
+	padding: 10px;
+
+}
+#conteudo-noticias > div{
+	background-color: rgba(202,143,144,0.6);
+	padding: 20px;
+}
+
+.acoes{
+	height: 600px
+	
+}
+
+
+
+
+
